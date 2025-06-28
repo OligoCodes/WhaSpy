@@ -14,7 +14,7 @@ const getDetails = () => {
     return;
   }
 
-  const url = `http://localhost:3000/getProfilePic?phone=${phone}`;
+  const url = `https://whaspy-backend.onrender.com/getProfilePic?phone=${phone}`;
 
   // Hide other elements
   thirdSection.querySelectorAll("p, .handle, .fa-magnifying-glass").forEach(element => {
