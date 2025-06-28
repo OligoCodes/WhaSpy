@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+  <script type="text/javascript" src="darkMode.js" defer></script>
+</head>
+
+<body>
+    <div class="overall">
+      
+       <div id="toggle">
+         <button id="theme-switch"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button> 
+       </div>
+      
+       <div class="first">
+         <div class="header">
+            <h1>
+              <span>Wha</span>Spy
+              <img id="logo" src="image/logo.png" width="30px" height="30px">
+            </h1>
+            <p>WhatsApp Profile Lookup</p>
+         </div>
+       </div>
+       
+       
+       <div class="second">
+         <div class="receive">
+            <input type="text" name="phone" id="phoneNumber" placeholder="eg.....233551448745"/>
+            <button id="lookup" onclick="getDetails()">Lookup</button>
+         </div>
+         <h6>Enter number without + sign</h6>
+       </div>
+       
+       
+       <div class="third">
+         <div class="handle">
+           <i id="stubborn" class="fa-solid fa-magnifying-glass"></i>
+         </div>
+         <p>No Results Yet</p>
+         <p>Enter a WhatsApp phone number above to see profile pic</p>
+       </div>
+    </div>
+    
+    <footer id="acknowledge">
+      &copy; 2025 <i style="color: red;" class="fa-solid fa-heart"></i> Joseph Bonsu 🇬🇭 
+    </footer>
+    
+    
+  <script src="main.js"></script>
+</body>
+</html>
